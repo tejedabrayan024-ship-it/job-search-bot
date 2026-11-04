@@ -1,0 +1,12 @@
+# This file is used to override language statistics
+# Exclude build artifacts
+
+* text=auto eol=lf
+*.svg text
+src/** linguist-detectable
+*.woff binary
+package-lock.json linguist-generated
+
+*.min.css linguist-generated
+*.htm linguist-vendored
+vendor/* linguist-vendored
