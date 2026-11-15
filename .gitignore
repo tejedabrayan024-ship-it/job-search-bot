@@ -1,0 +1,6 @@
+.env.local
+dist/
+.DS_Store
+build/
+.env
+.pnpm-store/
